@@ -1,0 +1,121 @@
+/* Style de la pagina Contacto */
+
+body {
+  margin: 0%;
+}
+
+/* MENU */
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  background-color: aquamarine;
+  justify-content: space-between;
+  padding: 15px 20px;
+  height: 45px;
+  width: auto;
+}
+
+.item {
+  margin: 10px;
+  width: 500PX;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+  /*boton menu */
+
+  .btn {
+    background-color: rgba(19, 199, 199, 0);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 30px;
+    height: 15px;
+    text-align: center;
+    border-radius: 10px;
+    letter-spacing: 2px;
+   }
+   
+   .btn:hover {
+     box-shadow: 10px;
+     background-color: blueviolet;
+   }
+
+/*Titulo*/
+
+.informacion {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  background-color: blueviolet;
+}
+
+.logo-item {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.logo-item:hover{
+  background-color: azure;
+  box-shadow: 15px;
+}
+
+/* box - Formulario - items internos  */
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(13, 82, 139);
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 40px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding-top: 20px;
+}
+
+.rectangulo {
+  height: 15px;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+.rectangulo::placeholder{
+  text-align: center;
+  
+}
+
+label {
+  font-size: 25PX;
+  background-color: rgb(6, 198, 198);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.space {
+  padding:15px 0;
+}
+
+#enviar {
+  height: 40px;
+  width: 80px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#enviar:hover {
+  background-color: blueviolet;
+  box-shadow: 15px;
+  border-radius: 10px;
+}

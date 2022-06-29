@@ -37,3 +37,10 @@ body {
   box-shadow: 10px;
   background-color: blueviolet;
 }
+
+/* imagen Astronauta */
+
+.imagen {
+  height: 200px;
+  width: 200px;
+}
