@@ -20,6 +20,14 @@ body {
   justify-content: space-around;
 }
 
+/* Icono del menu */
+
+#alien {
+  height: 50px;
+  width: 50px;
+}
+
+
 /*boton menu */
 
 .btn {
