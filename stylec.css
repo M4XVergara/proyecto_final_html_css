@@ -2,7 +2,7 @@
 
 body {
   margin: 0%;
-  background-color: rgb(102, 14, 185);
+  background-color: rgb(36, 2, 67);
 }
 
 /* MENU */
@@ -10,7 +10,7 @@ body {
 .menu {
   display: flex;
   flex-direction: row;
-  background-color: aquamarine;
+  background-color: rgb(18, 2, 28);
   justify-content: space-between;
   padding: 15px 20px;
   height: 45px;
@@ -30,49 +30,51 @@ body {
 #alien {
   height: 50px;
   width: 50px;
+  border-radius: 10px;
 }
 
 
-  /*boton menu */
+/*boton menu */
 
-  .btn {
-    background-color: rgba(19, 199, 199, 0);
-    font-size: 20px;
-    text-decoration: none;
-    padding: 15px 30px;
-    height: 15px;
-    text-align: center;
-    border-radius: 10px;
-    letter-spacing: 2px;
-   }
-   
-   .btn:hover {
-     box-shadow: 10px;
-     background-color: blueviolet;
-   }
+.btn {
+  background-color: rgba(19, 199, 199, 0);
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 30px;
+  height: 15px;
+  text-align: center;
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  box-shadow: 10px;
+  background-color: blueviolet;
+}
 
 /*Titulo*/
 
-.informacion {
+.information {
   display: flex;
+  color: white;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   margin: 0 auto;
-  width:400px;
-  background-color: blueviolet;
+  width: 400px;
+
 }
 
 .logo-item {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   border-radius: 5px;
-  margin: 5px;
+  margin: 10px;
 }
 
-.logo-item:hover{
-  background-color: azure;
-  box-shadow: 15px;
+.logo-item:hover {
+  background-color: rgb(109, 19, 118);
 }
 
 /* box - Formulario - items internos  */
@@ -85,25 +87,26 @@ body {
   height: 400px;
   margin: 0 auto;
   border-radius: 10px;
-  box-shadow: 40px;
+  box-shadow: 10px 17px 17px;
 }
 
-.formulario {
+.form {
   display: flex;
+  color: black;
   flex-direction: column;
   margin: 10px;
   padding-top: 20px;
 }
 
-.rectangulo {
+.rectangle {
   height: 15px;
   padding: 10px 0px;
   border-radius: 10px;
 }
 
-.rectangulo::placeholder{
+.rectangle::placeholder {
   text-align: center;
-  
+
 }
 
 label {
@@ -114,17 +117,18 @@ label {
 }
 
 .space {
-  padding:15px 0;
+  padding: 15px 0;
 }
 
-#enviar {
+#Send {
   height: 40px;
   width: 80px;
   margin: 0 auto;
+  background-color: rgb(250, 250, 251);
   border-radius: 10px;
 }
 
-#enviar:hover {
+#Send:hover {
   background-color: blueviolet;
   box-shadow: 15px;
   border-radius: 10px;
